@@ -605,6 +605,7 @@ export default function QuizApp() {
         <div>
           <div className="brand">{QUIZ_TITLE}</div>
           <div className="student">{name} · {registerNumber}</div>
+          <span>Sonal Steevan Lobo</span>
         </div>
         <div className={`timer ${timeLeft <= 60 ? "danger" : ""}`}>
           <span>TIME REMAINING</span>
